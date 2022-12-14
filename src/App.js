@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ComponenteA from './components/componenteA';
+import ClockFunctional from './components/clock.functional';
 
 function App() {
   const contactoPrueba = {
@@ -13,7 +14,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ComponenteA contacto={contactoPrueba} />
+        {/* <ComponenteA contacto={contactoPrueba} /> */}
+        <ClockFunctional></ClockFunctional>
       </header>
     </div>
   );
